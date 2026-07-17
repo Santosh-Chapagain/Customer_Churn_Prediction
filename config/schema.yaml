@@ -1,0 +1,51 @@
+columns: 
+  - _id:                  str
+  - gender:               str    
+  - SeniorCitizen :       int64  
+  - Partner :             str    
+  - Dependents :          str    
+  - tenure    :           int64  
+  - PhoneService :        str    
+  - MultipleLines  :      str    
+  - InternetService :     str    
+  - OnlineSecurity:       str    
+  - OnlineBackup :        str    
+  - DeviceProtection:     str    
+  - TechSupport :         str    
+  - StreamingTV  :        str    
+  - StreamingMovies :     str    
+  - Contract  :           str    
+  - PaperlessBilling :    str    
+  - PaymentMethod :       str    
+  - MonthlyCharges :      float64
+  - TotalCharges :         str    
+  - Churn      :          str  
+
+
+numerical_columns:
+  - SeniorCitizen
+  - tenure
+  - MonthlyCharges
+
+
+categorical_columns:
+  - _id
+  - gender
+  - Partner
+  - Dependents             
+  - PhoneService         
+  - MultipleLines        
+  - InternetService   
+  - OnlineSecurity       
+  - OnlineBackup         
+  - DeviceProtection   
+  - TechSupport          
+  - StreamingTV          
+  - StreamingMovies    
+  - Contract             
+  - PaperlessBilling     
+  - PaymentMethod        
+  - TotalCharges         
+  - Churn        
+
+drop_columns: _id
