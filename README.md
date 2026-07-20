@@ -24,7 +24,7 @@ A comprehensive machine learning pipeline for predicting customer churn using ad
 ## 🛠️ Tech Stack
 
 - **Core Libraries**: Python 3.10, Pandas, NumPy, Scikit-learn
-- **Machine Learning**: XGBoost, LightGBM, Optuna
+- **Machine Learning**: Random Forest , XGBoost, LightGBM, Optuna
 - **Web Framework**: FastAPI
 - **Infrastructure**: AWS (S3), Docker
 - **CI/CD**: GitHub Actions
