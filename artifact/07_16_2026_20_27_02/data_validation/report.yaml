@@ -1,0 +1,4 @@
+{
+    "validation_status": false,
+    "message": "Columns are missing in training dataframe. Columns are missing in test dataframe."
+}
