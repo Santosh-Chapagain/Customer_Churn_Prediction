@@ -17,6 +17,9 @@ A comprehensive machine learning pipeline for predicting customer churn using ad
   - Clean separation of concerns with dedicated layers for data, config, pipelines, and UI.
   - Comprehensive logging and exception handling.
 
+### 🖥️ Application Interface
+![Churn Predictor UI](assets/ui_screenshot.png)
+
 ## 🛠️ Tech Stack
 
 - **Core Libraries**: Python 3.10, Pandas, NumPy, Scikit-learn
