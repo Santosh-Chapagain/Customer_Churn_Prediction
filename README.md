@@ -18,7 +18,7 @@ A comprehensive machine learning pipeline for predicting customer churn using ad
   - Comprehensive logging and exception handling.
 
 ### 🖥️ Application Interface
-![Churn Predictor UI](assets/ui_screenshot.png)
+![Churn Predictor UI](assets/ui.png)
 
 ## 🛠️ Tech Stack
 
